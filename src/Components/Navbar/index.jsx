@@ -13,7 +13,7 @@ import {
   NavBtnLnk,
 } from "./NavbarElements";
 
-const index = () => {
+const index = ({ toggle }) => {
   return (
     <>
       <Nav>
@@ -21,8 +21,7 @@ const index = () => {
           <NavLogo to="/">
             <img src={logo} alt="Logo" />
           </NavLogo>
-
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
