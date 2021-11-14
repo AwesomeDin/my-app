@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-import logo from "./rithvikdineshlogo.png";
+import logo from "./rithvikdineshlogo3.png";
 import {
   Nav,
   NavbarContainer,
@@ -19,7 +19,7 @@ const index = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" width="100px" />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
