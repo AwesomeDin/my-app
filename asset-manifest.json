@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.bbde1e89.chunk.css",
-    "main.js": "/static/js/main.ea445066.chunk.js",
-    "main.js.map": "/static/js/main.ea445066.chunk.js.map",
+    "main.js": "/static/js/main.af707c62.chunk.js",
+    "main.js.map": "/static/js/main.af707c62.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
-    "static/js/2.646add0e.chunk.js": "/static/js/2.646add0e.chunk.js",
-    "static/js/2.646add0e.chunk.js.map": "/static/js/2.646add0e.chunk.js.map",
+    "static/js/2.21c4528f.chunk.js": "/static/js/2.21c4528f.chunk.js",
+    "static/js/2.21c4528f.chunk.js.map": "/static/js/2.21c4528f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.bbde1e89.chunk.css.map": "/static/css/main.bbde1e89.chunk.css.map",
-    "static/js/2.646add0e.chunk.js.LICENSE.txt": "/static/js/2.646add0e.chunk.js.LICENSE.txt",
+    "static/js/2.21c4528f.chunk.js.LICENSE.txt": "/static/js/2.21c4528f.chunk.js.LICENSE.txt",
+    "static/media/rithvikdineshlogo3.4450901f.png": "/static/media/rithvikdineshlogo3.4450901f.png",
     "static/media/video.36c3481d.mp4": "/static/media/video.36c3481d.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c2e8e232.js",
-    "static/js/2.646add0e.chunk.js",
+    "static/js/2.21c4528f.chunk.js",
     "static/css/main.bbde1e89.chunk.css",
-    "static/js/main.ea445066.chunk.js"
+    "static/js/main.af707c62.chunk.js"
   ]
 }
