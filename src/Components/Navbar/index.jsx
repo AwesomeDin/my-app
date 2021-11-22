@@ -29,17 +29,17 @@ const index = ({ toggle }) => {
               <NavLinks to="about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to="coursework">CourseWork</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="services">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="timeline">TimeLine</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLnk to="/signin">Sign In</NavBtnLnk>
+            <NavBtnLnk to="/contactme">Contact Me</NavBtnLnk>
           </NavBtn>
         </NavbarContainer>
       </Nav>

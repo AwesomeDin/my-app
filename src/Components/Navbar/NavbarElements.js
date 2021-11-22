@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   height: 80px;
   z-index: 1;
-  width: 100%auto;
+  width: 100%;
   padding: 0 24px;
   max-width: 1100px;
 `;
@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #b38f00;
   }
 `;
 
@@ -98,7 +98,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLnk = styled(LinkR)`
   border-radius: 80px;
-  background: #01bf71;
+  background: #b38f00;
   white-space: 12px 22px;
   color: #010606;
   font-size: 16px;
