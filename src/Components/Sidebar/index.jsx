@@ -21,18 +21,18 @@ const index = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="coursework" onClick={toggle}>
+            CourseWork
           </SidebarLink>
           <SidebarLink to="services" onClick={toggle}>
-            Services
+            Projects
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+          <SidebarLink to="timeline" onClick={toggle}>
+            TimeLine
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute to="/contactme">Contact Me</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

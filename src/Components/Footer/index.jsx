@@ -1,4 +1,20 @@
 import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FooterContainer,
+  FooterWrap,
+  FooterLinksContainer,
+  FooterLinkItems,
+  FooterLinkTitle,
+  FooterLink,
+  FooterLinksWrapper,
+  SocialMedia,
+  SocialLogo,
+  SocialIconLink,
+  SocialIcons,
+  SocialMediaWrap,
+  WebsiteRights,
+} from "./FooterElements";
 
 const Footer = () => {
   return (
@@ -22,6 +38,8 @@ const Footer = () => {
               <FooterLink to="/signin">Fourth</FooterLink>
               <FooterLink to="/signin">Fifth</FooterLink>
             </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>More Info</FooterLinkTitle>
               <FooterLink to="/signin">First</FooterLink>
@@ -40,6 +58,30 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/">RithvikDinesh</SocialLogo>
+            <WebsiteRights>
+              RithvikDinesh © {new Date().getFullYear()}
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink
+                href="//www.github.com/awesomedin"
+                target="_blank"
+                aria-label="Github"
+              >
+                <FaGithub />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.linkedin.com/in/rithvikdinesh/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                <FaLinkedin />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );
