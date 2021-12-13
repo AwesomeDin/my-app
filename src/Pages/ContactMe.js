@@ -1,11 +1,13 @@
 import React from "react";
 import ScrollToTop from "../Components/ScrollToTop";
+import Contact from "../Components/Contact";
+import Form from "../Components/Contact/Form";
 
 const ContactMe = () => {
   return (
     <div>
       <ScrollToTop />
-      <h1>Hello there</h1>
+      <Form />
     </div>
   );
 };
