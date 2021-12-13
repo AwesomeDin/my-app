@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Part 1",
+  topLine: "About Me",
   headline: "random words",
   description: "random words",
   buttonLabel: "Contact Me",

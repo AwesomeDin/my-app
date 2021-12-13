@@ -10,6 +10,7 @@ import {
   FormLabel,
   FormInput,
 } from "./ContactElements";
+import { Nav, NavbarContainer, NavLogo } from "../Navbar/NavbarElements.js";
 import logo from "../Navbar/rithvikdineshlogo3.png";
 
 const config = {
@@ -20,8 +21,35 @@ const config = {
 };
 
 const Thanks = () => (
-  <div className="thankyou_message">
-    <h2>Thanks for contacting me! I will get back to you soon!</h2>
+  <div
+    className="thankyou_message"
+    style={{
+      backgroundColor: "black",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      width: "100vw",
+      height: "100vh",
+    }}
+  >
+    <Icon to="/">
+      <img
+        src={logo}
+        alt="Logo"
+        width="100px"
+        style={{ marginLeft: "auto", marginRight: "auto", display: "block" }}
+      />
+    </Icon>
+    <h2
+      style={{
+        color: "white",
+        textAlign: "center",
+        alignSelf: "center",
+        paddingTop: "10px",
+      }}
+    >
+      Thanks for contacting me! I will get back to you soon!
+    </h2>
   </div>
 );
 
