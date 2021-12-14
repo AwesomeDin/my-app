@@ -22,7 +22,7 @@ const index = ({ isOpen, toggle }) => {
             About
           </SidebarLink>
           <SidebarLink to="coursework" onClick={toggle}>
-            CourseWork
+            Technologies
           </SidebarLink>
           <SidebarLink to="services" onClick={toggle}>
             Projects

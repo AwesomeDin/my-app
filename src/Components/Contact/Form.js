@@ -40,7 +40,7 @@ const Thanks = () => (
         style={{ marginLeft: "auto", marginRight: "auto", display: "block" }}
       />
     </Icon>
-    <h2
+    <h3
       style={{
         color: "white",
         textAlign: "center",
@@ -49,7 +49,7 @@ const Thanks = () => (
       }}
     >
       Thanks for contacting me! I will get back to you soon!
-    </h2>
+    </h3>
   </div>
 );
 

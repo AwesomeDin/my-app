@@ -22,8 +22,9 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   // topLine: "Part 2",
-  headline: "random words",
-  description: "random words",
+  headline: "Technologies",
+  description:
+    "Coursework includes Computer Science, Data Structures and Algorithms, Object Oriented Programming, Computer Logic and Organization, Matrix and Linear Algebra, Calculus 1,2,3, and Discrete Structures",
   buttonLabel: "Contact Me",
   imgStart: true,
   img: require("./random2.jpg").default,

@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  CourseWork
+                  Technologies
                 </NavLinks>
               </NavItem>
               <NavItem>

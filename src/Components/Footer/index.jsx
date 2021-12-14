@@ -4,11 +4,11 @@ import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
-  FooterLinksWrapper,
+  // FooterLinksContainer,
+  // FooterLinkItems,
+  // FooterLinkTitle,
+  // FooterLink,
+  // FooterLinksWrapper,
   SocialMedia,
   SocialLogo,
   SocialIconLink,
@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>More Info</FooterLinkTitle>
@@ -62,7 +62,7 @@ const Footer = () => {
               <FooterLink to="/signin">Fifth</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
