@@ -10,7 +10,7 @@ import {
   FormLabel,
   FormInput,
 } from "./ContactElements";
-import { Nav, NavbarContainer, NavLogo } from "../Navbar/NavbarElements.js";
+import { Button2 } from "../ButtonElement";
 import logo from "../Navbar/rithvikdineshlogo3.png";
 
 const config = {
@@ -45,11 +45,14 @@ const Thanks = () => (
         color: "white",
         textAlign: "center",
         alignSelf: "center",
-        paddingTop: "10px",
+        paddingTop: "20px",
       }}
     >
       Thanks for contacting me! I will get back to you soon!
     </h3>
+    <Button2 to="/" primary="true" color="false">
+      Home
+    </Button2>
   </div>
 );
 
