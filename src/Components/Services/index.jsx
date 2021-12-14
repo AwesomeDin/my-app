@@ -16,7 +16,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="services">
+    <ServicesContainer id="services" style={{ paddingBottom: "150px" }}>
       <ServicesH1> Featured Projects</ServicesH1>
       <ServicesWrapper>
         <ServicesCard

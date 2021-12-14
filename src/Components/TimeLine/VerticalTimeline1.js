@@ -6,10 +6,13 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import infinitesweeps from "./infinitesweepslogo.png";
 import reachforthe from "./reachforthe.png";
+import { HeaderH1 } from "./TimelineElements";
+import Chip from "@mui/material/Chip";
 
 const VerticalTimeline1 = () => {
   return (
-    <div id="timeline">
+    <div id="timeline" style={{ paddingTop: "100px" }}>
+      <HeaderH1> TimeLine </HeaderH1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -59,7 +62,11 @@ const VerticalTimeline1 = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "black", color: "white" }}
+          contentStyle={{
+            background: "black",
+            color: "white",
+            textAlign: "center",
+          }}
           contentArrowStyle={{ borderRight: "7px solid  black" }}
           iconStyle={{
             backgroundImage: `url(${infinitesweeps})`,
@@ -96,11 +103,19 @@ const VerticalTimeline1 = () => {
             style={{
               textAlign: "center",
               alignSelf: "center",
+              paddingBottom: "3px",
             }}
           >
-            Tested code for errors including frontend and backend(Java, Agile).
-            Executed reports and design implementations for the website as well.
+            Tested code for errors including frontend and backend using Java and
+            Agile Methodology. Executed reports and design implementations for
+            the website as well.
           </p>
+          <Chip
+            label="Java"
+            style={{
+              backgroundColor: "#b38f00",
+            }}
+          />
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
