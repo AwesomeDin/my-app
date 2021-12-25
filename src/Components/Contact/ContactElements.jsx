@@ -11,6 +11,8 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: black;
+  overflow-y: scroll;
+  padding-bottom: 250px;
   /* background: linear-gradient(
     108deg,
     rgba(1, 147, 86, 1) 0%,
@@ -72,6 +74,7 @@ export const Form2 = styled.form`
 `;
 
 export const FormH1 = styled.h1`
+  margin-top: -20px;
   margin-bottom: 40px;
   color: #fff;
   font-size: 20px;
@@ -90,6 +93,14 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+`;
+export const FormInput1 = styled.textarea`
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 4px;
+  height: 100px;
+  width: auto;
 `;
 
 export const FormButton = styled.button`
