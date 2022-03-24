@@ -2,7 +2,7 @@ import React from "react";
 import Icon1 from "../Services/personalwebsite.PNG";
 // import Icon1 from "../InfoSection/random.jpg";
 import Icon2 from "./stocks.jpg";
-import Icon3 from "./todo.png";
+import Icon3 from "./DSML.png";
 import Chip from "@mui/material/Chip";
 import {
   ServicesContainer,
@@ -44,15 +44,17 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard
-          href="//www.github.com/AwesomeDin/dinesh-cop3330-assignment4part2"
+          href="https://github.com/AwesomeDin/Data-Science-and-Machine-Learning-Projects"
           target="_blank"
           aria-label="Personal Website"
         >
           <ServicesIcon src={Icon3} />
-          <ServicesH2>To-Do List</ServicesH2>
-          <ServicesP>Manager for all lists needed to be done!</ServicesP>
+          <ServicesH2>Data Sci and Machine Learning</ServicesH2>
+          <ServicesP>Various charts and models </ServicesP>
           <ServicesP>
-            <Chip label="Java" />
+            <Chip label="Python" />
+            <Chip label="Tensorflow" />
+            <Chip label="Pandas" />
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
